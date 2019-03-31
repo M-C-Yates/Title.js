@@ -1,15 +1,16 @@
 {
 	"name": "title.js",
-	"version": "1.0.0",
+	"version": "1.0.4",
 	"description": "a Heroku-like name generator",
 	"main": "title.js",
 	"bin": {
-		"title": "./title.js"
+		"name": "./title.js"
 	},
 	"preferGlobal": true,
 	"author": "Matthew Yates",
 	"repository": {
-		"Github": "https://github.com/M-C-Yates/namer.js"
+		"type": "git",
+		"url": "https://github.com/M-C-Yates/namer.js"
 	},
 	"license": "ISC",
 	"dependencies": {}
