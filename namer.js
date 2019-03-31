@@ -9,3 +9,7 @@ const namer = () => {
 };
 
 console.log(namer());
+
+module.exports = {
+	namer
+};
