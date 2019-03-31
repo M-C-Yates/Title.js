@@ -8,5 +8,6 @@ const title = () => {
 	randNum = 1000 + Math.floor(Math.random() * 8999);
 	return `${randAdj}-${randNoun}-${randNum}`;
 };
-
-console.log(title());
+for (let i = 0; i < 9; i++) {
+	console.log(title());
+}
