@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const adjectives = [
 	"Ablaze",
 	"Abrupt",
@@ -125,7 +127,6 @@ const adjectives = [
 	"Still",
 	"Stormy",
 	"Summery",
-	"Thrilling",
 	"Totemic",
 	"Tranquil",
 	"Treasured",
@@ -399,7 +400,6 @@ const nouns = [
 	"Pool",
 	"Port",
 	"Portal",
-	"post",
 	"Prairie",
 	"Principality",
 	"Priory",
@@ -448,8 +448,6 @@ const nouns = [
 	"Square",
 	"Stand",
 	"Star",
-	"Strait",
-	"Strand",
 	"Stream",
 	"Street",
 	"Swamp",
@@ -491,4 +489,13 @@ const nouns = [
 	"Wood"
 ];
 
-console.log(adjectives.length * nouns.length);
+const namer = () => {
+	let randAdj = adjectives[Math.floor(Math.random() * adjectives.length)];
+	let randNoun = nouns[Math.floor(Math.random() * nouns.length)];
+	randNum = 1000 + Math.floor(Math.random() * 8999);
+	return `${randAdj}-${randNoun}-${randNum}`;
+};
+
+console.log(namer());
+
+console.log(adjectives.length * nouns.length * 8999);

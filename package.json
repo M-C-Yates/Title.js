@@ -3,9 +3,16 @@
 	"version": "1.0.0",
 	"description": "a Heroku-like name generator",
 	"main": "haiku.js",
+	"bin": {
+		"namer": "./namer.js"
+	},
+	"preferGlobal": true,
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "Matthew Yates",
+	"repository": {
+		"Github": "https://github.com/M-C-Yates/namer.js"
+	},
 	"license": "ISC"
 }
