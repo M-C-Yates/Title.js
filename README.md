@@ -1,9 +1,13 @@
-# Namer
+# title
 
 A basic CLI for coming up with Heroku-like names.
 
 There are 430 Million possible name combinations.
 
-    npm i -g namer
+    npm i -g title
 
-Then simply type namer into your shell
+Then simply type
+
+    title
+
+into your shell

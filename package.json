@@ -1,15 +1,16 @@
 {
-	"name": "server-namer",
+	"name": "title",
 	"version": "1.0.0",
 	"description": "a Heroku-like name generator",
-	"main": "haiku.js",
+	"main": "nameGen.js",
 	"bin": {
-		"namer": "./namer.js"
+		"title": "./title.js"
 	},
 	"preferGlobal": true,
 	"author": "Matthew Yates",
 	"repository": {
 		"Github": "https://github.com/M-C-Yates/namer.js"
 	},
-	"license": "ISC"
+	"license": "ISC",
+	"dependencies": {}
 }
