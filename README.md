@@ -8,6 +8,6 @@ There are 430 Million possible name combinations.
 
 Then simply type
 
-    title
+    name
 
 into your shell
