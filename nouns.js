@@ -138,6 +138,7 @@ const nouns = [
 	"Friary",
 	"Frost",
 	"Fountain",
+	"Gallery",
 	"Garden",
 	"Gardens",
 	"Gate",

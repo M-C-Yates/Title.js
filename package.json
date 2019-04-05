@@ -1,6 +1,6 @@
 {
 	"name": "title.js",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "a Heroku-like name generator",
 	"main": "title.js",
 	"bin": {
