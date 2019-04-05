@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-
-const { adjectives, nouns } = require("./words");
+const { adjectives } = require("./adjectives");
+const { nouns } = require("./nouns");
 
 const title = () => {
 	let randAdj = adjectives[Math.floor(Math.random() * adjectives.length)];
